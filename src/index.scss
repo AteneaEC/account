@@ -74,8 +74,13 @@ main{
 }
 
 .site-header-desktop{
-  background-color: #303030 !important;
+  background-color: #fff !important;
   border-bottom: 4px solid #3fa9f5;
+}
+
+.site-header-desktop .logo,
+.site-header-desktop .logo img{
+  height: 40px;
 }
 
 .avatar{
@@ -84,11 +89,12 @@ main{
 
 .menu-trigger.btn{
   border: 1px solid #3fa9f5;
-  color: white;
+  color: #3fa9f5;
 }
 
 .menu-trigger.btn:hover{
   background-color: #3fa9f5;
+  color: white;
 }
 
 .menu-trigger.btn:focus{
