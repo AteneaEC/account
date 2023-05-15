@@ -821,7 +821,7 @@ class AccountSettingsPage extends React.Component {
               {loaded ? this.renderContent() : null}
               {loadingError ? this.renderError() : null}
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 navegar">
               <JumpNav
                 displayDemographicsLink={this.props.formValues.shouldDisplayDemographicsSection}
               />
